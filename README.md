@@ -12,7 +12,7 @@ POST:
           curl --location --request POST 'localhost:8080/articals' \
       --header 'Content-Type: application/json' \
       --data-raw '{
-          "title": "SPH blog for golang",
+          "title": "blog for golang",
           "content": "Sample Content for blogs api",
           "author": "devignesh"
       }'
@@ -62,7 +62,7 @@ Response:
             "message": "The details of the blog for requested Id",
             "data": {
                 "id": "6406d6642a5852e5990c2cb3",
-                "title": "SPH blog for golang",
+                "title": "blog for golang",
                 "content": "Sample Content for blogs api",
                 "author": "devignesh"
             }
@@ -136,7 +136,7 @@ Response:
                 },
                 {
                     "id": "6406d6642a5852e5990c2cb3",
-                    "title": "SPH blog for golang",
+                    "title": "blog for golang",
                     "content": "Sample Content for blogs api",
                     "author": "devignesh"
                 }
